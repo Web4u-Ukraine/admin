@@ -1,0 +1,120 @@
+/*------------------------------------------------------------------
+
+[Custom Stylesheet]
+
+
+Last change:	03/25/2013
+Assigned to:	You
+
+-------------------------------------------------------------------*/
+.nav-pills > li:hover > a{
+  background-color: #ff9900;
+  color: white;
+}
+
+.nav-pills > li:hover > a >span{
+	background-color: white;
+	color: #999;
+}
+
+.nav>li>a{
+	display: inline-block!important;
+}
+
+.oneDoc{
+	width: 150px;
+	height: 150px;
+	border-radius: 5px;
+	float: left;
+	margin: 10px 10px 0px 0;
+	border:1px solid gray;
+	overflow: hidden;
+	text-align: center;
+	position: relative;
+}
+
+.deleteThis{
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	cursor: pointer;
+	color: red;
+}
+
+.margin-box-20{
+	margin: 20px;
+}
+
+.form-control{
+	margin-bottom: 10px;
+}
+
+.load{
+	position: relative;
+	width: 105px;
+	height: 35px;
+}
+
+.load input[type=file]{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 105px;
+	height: 35px;
+	z-index: 100;
+	opacity: 0;
+	cursor: pointer!important;
+}
+
+.gallery-container{
+	text-align: left;
+	padding: 0!important;
+}
+
+.gallery-container li{
+	position: relative;
+}
+
+.delete-load-photo{
+	position: absolute!important;
+	top: -17px!important;
+	right: 17px!important;
+	cursor: pointer!important;
+}
+
+.modal-body .form-group{
+	border-bottom: 1px dotted black;
+	margin-bottom: 5px;
+}
+
+.widget-content > select{
+	width: 90px;
+	margin-right: 10px;
+}
+
+table.dataTable tfoot th, table.dataTable tfoot td{
+	padding: 15px 2px!important;
+}
+
+table.dataTable tfoot th input, table.dataTable tfoot td input{
+	font-size: 10px!important;
+}
+
+.prizrak-box{
+	height: 138px;
+}
+
+.widget-header a, .widget-header .btn-group{
+	margin-right: 10px;
+	margin-top: 10px;
+}
+.otstup{
+	margin-right: 25px;
+}
+.otstup2{
+	margin-right: 25px;
+}
+
+.hide_column{
+	text-decoration: line-through;
+}
